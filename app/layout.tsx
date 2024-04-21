@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { ABeeZee } from "next/font/google";
+
 const inter = Inter({ subsets: ["latin"] });
+const aBeeZee = ABeeZee({ weight: "400", subsets: ["latin"], style: "italic" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${aBeeZee.className} bg-[#808080] w-full flex justify-center `}
+      >
+        {children}
+      </body>
     </html>
   );
 }
