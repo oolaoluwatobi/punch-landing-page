@@ -40,7 +40,7 @@ const Slider = () => {
   }, [api]);
 
   return (
-    <div className="p-8 md:p-16 lg:p24 bg-gradient-to-b from-white to-[#EDEFFF]  ">
+    <div className="p-8 md:p-16 lg:p24 bg-gradient-to-b from-white to-[#E1E3F8]  ">
       {/* <div className="h-[600px] w-full"></div> */}
 
       {/* slides */}
@@ -66,12 +66,12 @@ const Slider = () => {
         </Carousel>
       </div>
       <div className=" w-full mt-4 md:mt-6 xl:mt-10">
-        <div className="flex bg-[#E1E3F8] w-fit mx-auto rounded-full">
+        <div className="flex bg-[#E1E3F8] w-fit mx-auto rounded-full drop-shadow-lg">
           {Array.from({ length: count }).map((_, index) => (
             <div
               key={index}
               className={` rounded-full transition-all ease-in-out w-40 h-4  ${
-                current === index + 1 ? "bg-[#202229]" : "bg-[#E1E3F8]"
+                current === index + 1 ? "bg-[#202229]" : "bg-[#EDEFFF"
               } `}
             ></div>
           ))}

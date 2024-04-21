@@ -7,6 +7,7 @@ import HowItWorked from "./components/HowItWorked";
 import GoodHands from "./components/GoodHands";
 import YourJourney from "./components/YourJourney";
 import Slider from "./components/Slider";
+import Questions from "./components/Questions";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <GoodHands />
       <YourJourney />
       <Slider />
+      <Questions />
     </main>
   );
 }
