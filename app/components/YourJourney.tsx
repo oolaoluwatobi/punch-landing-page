@@ -55,7 +55,7 @@ const YourJourney = () => {
                         alt="lady"
                         width={0}
                         height={0}
-                        className="w-10 md:w-full"
+                        className="w-10 xl:w-full"
                       />
                     </button>
                     <p className="my-auto">Join Now</p>

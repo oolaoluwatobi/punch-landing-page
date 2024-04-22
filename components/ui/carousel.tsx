@@ -224,7 +224,7 @@ const CarouselPrevious = React.forwardRef<
       {...props}
     >
       {marketPlace ? (
-        <div className="border p-10 aspect-square rounded-3xl bg-[#f6f6f6]  hover:border-red-300   mb-7 ">
+        <div className="border p-6 lg:p-10 aspect-square rounded-3xl bg-[#f6f6f6]  hover:border-red-300   mb-7 ">
           <Image src={vectorLeft} className=" my-auto w-6 h-6 " alt="Vector" />
         </div>
       ) : (
@@ -260,7 +260,7 @@ const CarouselNext = React.forwardRef<
       {...props}
     >
       {marketPlace ? (
-        <div className="border p-10 aspect-square rounded-3xl bg-[#f6f6f6] hover:border-red-300  mb-7 ">
+        <div className="border p-6 lg:p-10 aspect-square rounded-3xl bg-[#f6f6f6] hover:border-red-300  mb-7 ">
           <Image src={Vector} className=" my-auto w-6 h-6 " alt="Vector" />
         </div>
       ) : (

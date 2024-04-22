@@ -73,9 +73,9 @@ const FindingTheRightFitTab = () => {
     <div className="bg-[#F8F8F8] min-w-[480px max-w-screen-lg w-full rounded-[15px] mx-auto ">
       <Tabs
         defaultValue="itAndDevelopment"
-        className="mx-auto w-fit px-2 lg:px-8 pt-4 pb-7 "
+        className="mx-auto w-fit px-2 lg:px-8 pt-4 pb-7  text-sm lg:text-base "
       >
-        <div className="w-full my-4  flex  text-sm lg:text-base">
+        <div className="w-full my-4  flex ">
           <TabsList className="mx-auto">
             <TabsTrigger value="itAndDevelopment" className="">
               It & Development
@@ -86,7 +86,7 @@ const FindingTheRightFitTab = () => {
           </TabsList>
         </div>
         <TabsContent value="itAndDevelopment">
-          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-4 xl:gap-x-40 gap-y-4 ">
+          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-20 xl:gap-x-40 gap-y-4 ">
             {renderTabs}
           </div>
         </TabsContent>

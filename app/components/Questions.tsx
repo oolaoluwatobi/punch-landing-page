@@ -67,7 +67,7 @@ const Questions = () => {
           )}
         </div>
         <p
-          className={` ${item.title && item.subtitle ? "md:pl-[124px] xl:pl-[318px]" : item.title ? "md:pl-[280px] xl:pl-[480px]" : "md:pl-[374px] xl:pl-[574px]"}   py-5  my-aut mx-aut w-full w-fi hover:bg-[#E8E8E8] cursor-pointer `}
+          className={` ${item.title && item.subtitle ? " md:pl-[164px] xl:pl-[318px]" : item.title ? "pl-[80px] md:pl-[280px] xl:pl-[480px]" : "pl-[160px] md:pl-[374px] xl:pl-[574px]"}   py-5  my-aut mx-aut w-full w-fi hover:bg-[#E8E8E8] cursor-pointer `}
         >
           {item.content}
         </p>
@@ -77,7 +77,7 @@ const Questions = () => {
 
   return (
     <div
-      className="mt10 aspect-[1440/1344 bg-[#f3f3f3] flex relative"
+      className="mt10 aspect-[1440/1344 bg-[#f3f3f3] text-xs lg:text-base flex relative"
       // style={{
       //   backgroundImage: `url(/question_bg.png)`,
       //   backgroundSize: "cover",
@@ -86,7 +86,7 @@ const Questions = () => {
     >
       <Image src={slant} alt="background" className="absolute top-0" />
       <div className="py-20 w-full">
-        <h4 className="text-center mx-auto font-medium text-3xl lg:text-4xl xl:text-5xl    ">
+        <h4 className="text-center mx-auto font-medium text-2xl md:text-3xl lg:text-4xl xl:text-5xl    ">
           Frequently asked questions
         </h4>
 

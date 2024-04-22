@@ -134,7 +134,7 @@ const MarketPlace = () => {
     return (
       <div
         key={data.title}
-        className="  flex flex-col lg:flex-row  space-y-8 lg:gap-12 px-4 md:px-8 lg:px-16 my-10"
+        className="  flex flex-col lg:flex-row  text-sm lg:text-base space-y-8 lg:gap-12 px-4 md:px-8 lg:px-16 my-10"
       >
         <div className=" lg:w-[30%]  my-auto   bg-red-40 ">
           <div className="space-y-5 max-w-sm">
@@ -190,7 +190,7 @@ const MarketPlace = () => {
   return (
     <div className="bg-[#EDEFFF] pt-16 lg:pt-40 relative ">
       <div className="bg-[#EDEFFF bg-[#fff] bg-red-30 -skew-y-2 absolute -top-4 h-10 w-full"></div>
-      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center max-w-l lg:w-full  px-8  mx-auto">
+      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center max-w-l lg:w-full  px-6  mx-auto">
         Your one-stop marketplace for finding <br className="hidden lg:block" />{" "}
         the talent your business needs.
       </h4>

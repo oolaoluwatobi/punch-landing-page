@@ -10,7 +10,7 @@ import FindingTheRightFitTab from "./FindingTheRightFitTab";
 const FindingRightFit = () => {
   return (
     <div className="mx-auto px-4 pt-20 xl:pt-40 space-y-6 w-full">
-      <h1 className="text-4xl xl:text-[54px] font-bold drop-shadow-md xl:leading-[64px] text-center">
+      <h1 className=" text-3xl lg:text-4xl xl:text-[54px] font-bold drop-shadow-md xl:leading-[64px] text-center">
         Finding the right fit{" "}
         <Image
           className="inline my-auto size-16 aspect-square  "
@@ -20,7 +20,7 @@ const FindingRightFit = () => {
         has
         <br className="hidden lg:block" /> never been easier.
       </h1>
-      <p className="text-[#202229] text-[22px] max-w-screen-sm mx-auto text-center">
+      <p className="text-[#202229] text-lg lg:text-[22px] max-w-screen-sm mx-auto text-center">
         With our rigorous pre-vetting process, you&apos;ll never have to worry
         about finding the ideal candidate ever again.
       </p>

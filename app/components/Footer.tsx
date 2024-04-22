@@ -30,7 +30,8 @@ const Footer = () => {
         {data.links.map((link) => (
           <p
             key={link}
-            className="hover:border-b border-white w-fit cursor-pointer "
+            className="hover:border-b border-white w-fit cursor-pointer transition-all"
+            style={{ borderImage: "linear-gradient(to right, white, white)" }}
           >
             {link}
           </p>
@@ -40,7 +41,7 @@ const Footer = () => {
   ));
 
   return (
-    <div className="-mt-14 bg-[#0C0C0C] bg-red-20 z-20 text-white lg:grid lg:grid-cols-6    ">
+    <div className="-mt-14 bg-[#0C0C0C] bg-red-20 z-20 text-white text-sm lg:grid lg:grid-cols-6    ">
       {/* left */}
       <div className="col-span-2 text-sm space-y-8 px-8">
         <Image src={logo} alt="logo" width={100} height={100} />

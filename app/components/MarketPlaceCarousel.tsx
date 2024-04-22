@@ -1,4 +1,4 @@
-"use clientb";
+"use client";
 
 import {
   Carousel,
@@ -24,14 +24,14 @@ const MarketPlaceCarousel = ({ items, subtitle }: MarketPlaceCarouselProps) => {
         key={item.name}
         className="min-w96 basis-1/3 sm:basis-1/4 lg: md:basis-1/5 space-y-2 bg-red-30"
       >
-        <div className="rounded-full bg-[#f6f6f6] flex size-24 aspect-square">
+        <div className="rounded-full bg-[#f6f6f6] flex size-14 lg:size-24 aspect-square">
           <Image
             className="mx-auto my-auto object-contain"
             src={item.image}
             alt={item.name}
           />
         </div>
-        <p className="text-center bg-red-5 w-fit text- font-medium overflow-auto break-words">
+        <p className="text-center bg-red-5 w-fit text-xs lg:text-base font-medium overflow-auto break-words">
           {item.name}
         </p>
       </CarouselItem>
@@ -46,9 +46,9 @@ const MarketPlaceCarousel = ({ items, subtitle }: MarketPlaceCarouselProps) => {
           marketPlace={true}
           className="w-[90% ml-auto bg-fuchsia-40 bg-white z-30"
         >
-          <CarouselPrevious className="absolute z-10 top-16 -left-4 cursor-pointer  w-36 h-[10.6rem] border-none hover:bg-white rounded-none bg-white" />
+          <CarouselPrevious className="absolute z-10 top-12 lg:top-16 -left-4 cursor-pointer  lg: w-36 h-[6rem] lg:h-[10.8rem] border-none hover:bg-white rounded-none bg-white" />
           <CarouselContent>{renderItems}</CarouselContent>
-          <CarouselNext className="absolute top-16 right-0 cursor-pointer  border-none hover:bg-white w-36 h-[10.6rem] rounded-none bg-red-20 bg-white " />
+          <CarouselNext className="absolute top-12 lg:top-16 right-0 cursor-pointer  border-none hover:bg-white  lg: w-36 h-[6rem] lg:h-[10.8rem] rounded-none bg-white " />
         </Carousel>
       </div>
     </>
