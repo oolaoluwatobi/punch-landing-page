@@ -83,7 +83,7 @@ const YourJourney = () => {
                 />
                 <div className="max-w-sm  space-y-4">
                   <h3 className="text-2xl xl:text-3xl font-medium italic">
-                    Evalueate to your heart&apos;s content.
+                    Evaluate to your heart&apos;s content.
                   </h3>
                   <p className="text-[#20222980] ">
                     Assess the candidate through work history, transparent tests
@@ -163,8 +163,8 @@ const YourJourney = () => {
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
+                <div className="max-w-sm space-y-2 xl:space-y-4">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
                     Find your next star performer.
                   </h3>
                   <p className="text-[#20222980] ">
@@ -173,7 +173,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 xl:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>
@@ -203,9 +209,9 @@ const YourJourney = () => {
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
-                    Evalueate to your heart&apos;s content.
+                <div className="max-w-sm space-y-2 xl:space-y-4">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
+                    Evaluate to your heart&apos;s content.
                   </h3>
                   <p className="text-[#20222980] ">
                     Assess the candidate through work history, transparent tests
@@ -213,7 +219,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 xl:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>
@@ -243,8 +255,8 @@ const YourJourney = () => {
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
+                <div className="max-w-sm space-y-2 xl:space-y-4">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
                     Start building your team.
                   </h3>
                   <p className="text-[#20222980] ">
@@ -253,7 +265,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 xl:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>
