@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 const aBeeZee = ABeeZee({ weight: "400", subsets: ["latin"], style: "italic" });
 
 export const metadata: Metadata = {
-  title: "zwilt - Punch assessment created by ọlá",
+  title: "zwilt - oolaoluwatobi",
   description: "Punch assessment created by ọlá",
 };
 
