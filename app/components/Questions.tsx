@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import slant from "@/public/slant_questions.svg";
+import slantblack from "@/public/slant_black.png";
+import slant_light from "@/public/slanted_bg.svg";
 
 const QuestionsData = [
   {
@@ -91,6 +93,19 @@ const Questions = () => {
         {/* table thingy */}
         <div className=" pt-10">{rendetItems}</div>
       </div>
+
+      {/* <Image
+        src={slantblack}
+        alt="background"
+        className="absolute -bottom-1  "
+      /> */}
+      <Image
+        className="absolute -mx-10 lg:mx-0 -bottom-10 lg:-bottom-[46px] xl:-bottom-[56px]"
+        src={slant_light}
+        alt="good hands"
+        width={0}
+        height={0}
+      />
     </div>
   );
 };
