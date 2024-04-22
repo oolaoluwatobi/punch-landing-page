@@ -18,7 +18,7 @@ const FindingRightFit = () => {
           alt="Person"
         />
         has
-        <br /> never been easier.
+        <br className="hidden lg:block" /> never been easier.
       </h1>
       <p className="text-[#202229] text-[22px] max-w-screen-sm mx-auto text-center">
         With our rigorous pre-vetting process, you&apos;ll never have to worry
@@ -27,12 +27,12 @@ const FindingRightFit = () => {
       <form className="relative max-w-screen-sm mx-auto">
         <input
           type="text"
-          className="text-[#959595] border-[1px] border-[#959595] rounded-[16px] w-full py-[30px] focus:border-none  flex-1  pl-6"
+          className="text-[#959595] border-[1px] border-[#959595] rounded-[16px] w-full py-4 lg:py-[30px] focus:border-none  flex-1  pl-6"
           placeholder="design |"
         />
         <button
           type="submit"
-          className="absolute top-0 right-0   bg-[#FFBE2E] hover:bg-[#FFBE2E9e] size-[86px]  transition-all aspect-square flex  my-auto  rounded-[14px]"
+          className="absolute top-0 right-0   bg-[#FFBE2E] hover:bg-[#FFBE2E9e] w-[58px] lg:size-[86px]  transition-all aspect-square flex  my-auto  rounded-[14px]"
         >
           <Image className="inline my-auto mx-auto " src={vector} alt="arrow" />
         </button>

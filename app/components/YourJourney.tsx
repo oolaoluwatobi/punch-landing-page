@@ -34,17 +34,17 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className="w-10 md:w-fit h-fit"
+                  className="w-6 md:w-fit h-fit"
                   src={one}
                   alt="one"
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-2xl xl:text-3xl font-medium italic">
+                <div className="max-w-sm space-y-2 md:space-y-4">
+                  <h3 className=" md:text-2xl xl:text-3xl font-medium italic">
                     Find your next star performer.
                   </h3>
-                  <p className="text-[#20222980] ">
+                  <p className="text-[#20222980] text-sm md:text-base">
                     Explore the vast Zwilt marketplace to find the candidate
                     that meets your needs.
                   </p>
@@ -81,14 +81,14 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className="w-10 md:w-fit h-fit"
+                  className="w-6 md:w-fit h-fit"
                   src={two}
                   alt="one"
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-2xl xl:text-3xl font-medium italic">
+                <div className="max-w-sm space-y-2 md:space-y-4">
+                  <h3 className=" md:text-2xl xl:text-3xl font-medium italic">
                     Evaluate to your heart&apos;s content.
                   </h3>
                   <p className="text-[#20222980] ">
@@ -127,14 +127,14 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className="w-10 md:w-fit h-fit"
+                  className="w-6 md:w-fit h-fit"
                   src={three}
                   alt="one"
                   width={0}
                   height={0}
                 />
-                <div className="max-w-sm  space-y-4">
-                  <h3 className="text-2xl xl:text-3xl font-medium italic">
+                <div className="max-w-sm space-y-2 md:space-y-4">
+                  <h3 className=" md:text-2xl xl:text-3xl font-medium italic">
                     Start building your team.
                   </h3>
                   <p className="text-[#20222980] ">
