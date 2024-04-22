@@ -70,7 +70,7 @@ const Slider = () => {
           {Array.from({ length: count }).map((_, index) => (
             <div
               key={index}
-              className={` rounded-full transition-all ease-in-out w-40 h-4  ${
+              className={` rounded-full transition-all ease-in-out w-10 h-2 lg:w-40 lg:h-4  ${
                 current === index + 1 ? "bg-[#202229]" : "bg-[#EDEFFF"
               } `}
             ></div>

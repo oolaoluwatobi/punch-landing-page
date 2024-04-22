@@ -67,7 +67,7 @@ const Questions = () => {
           )}
         </div>
         <p
-          className={` ${item.title ? "md:pl-[280px] xl:pl-[480px]" : "md:pl-[374px] xl:pl-[574px]"} ${item.title && item.subtitle ? "md:pl-[124px] xl:pl-[318px]" : ""}  py-5  my-aut mx-aut w-full w-fi hover:bg-[#E8E8E8] cursor-pointer `}
+          className={` ${item.title && item.subtitle ? "md:pl-[124px] xl:pl-[318px]" : ""}  ${item.title ? "md:pl-[280px] xl:pl-[480px]" : "md:pl-[374px] xl:pl-[574px]"} py-5  my-aut mx-aut w-full w-fi hover:bg-[#E8E8E8] cursor-pointer `}
         >
           {item.content}
         </p>

@@ -14,7 +14,7 @@ const FooterData = [
   },
   {
     title: "HELP",
-    links: ["Contat Us"],
+    links: ["Contact Us"],
   },
   {
     title: "GET IN TOUCH @",
@@ -40,7 +40,7 @@ const Footer = () => {
   ));
 
   return (
-    <div className="-mt-14 bg-[#0C0C0C] bg-red-20 z-20 text-white grid lg:grid-cols-6    ">
+    <div className="-mt-14 bg-[#0C0C0C] bg-red-20 z-20 text-white lg:grid lg:grid-cols-6    ">
       {/* left */}
       <div className="col-span-2 text-sm space-y-8 px-8">
         <Image src={logo} alt="logo" width={100} height={100} />
@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
 
       {/* right */}
-      <div className="lg:col-span-4 px-8">
+      <div className="lg:col-span-4 px-8 mt-20 lg:mt-0 ">
         <div className="w-full h-full space-y-10">
           <h4 className="max-w-screen-md text-4xl italic font-medium">
             Connecting the right people to the right businesses.

@@ -41,7 +41,7 @@ const YourJourney = () => {
                   height={0}
                 />
                 <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
                     Find your next star performer.
                   </h3>
                   <p className="text-[#20222980] ">
@@ -82,7 +82,7 @@ const YourJourney = () => {
                   height={0}
                 />
                 <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
                     Evalueate to your heart&apos;s content.
                   </h3>
                   <p className="text-[#20222980] ">
@@ -122,7 +122,7 @@ const YourJourney = () => {
                   height={0}
                 />
                 <div className="max-w-sm  space-y-4">
-                  <h3 className="text-3xl font-medium italic">
+                  <h3 className="text-2xl xl:text-3xl font-medium italic">
                     Start building your team.
                   </h3>
                   <p className="text-[#20222980] ">

@@ -20,6 +20,7 @@ import profile from "@/public/profile.svg";
 import Vector from "@/public/Vector_light.svg";
 import MarketPlaceCarousel from "./MarketPlaceCarousel";
 import ExploreMore from "./ExploreMore";
+import LearnMoreButton from "./LearnMoreButton";
 
 const MarketPlaceData = [
   {
@@ -189,21 +190,18 @@ const MarketPlace = () => {
   return (
     <div className="bg-[#EDEFFF] pt-40 relative ">
       <div className="bg-[#EDEFFF bg-[#fff] bg-red-30 -skew-y-2 absolute -top-4 h-10 w-full"></div>
-      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center">
+      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center max-w-lg mx-auto">
         Your one-stop marketplace for finding <br className="hidden lg:block" />{" "}
         the talent your business needs.
       </h4>
       <div className="">{renderMarketPlace}</div>
       <div className="flex bg-red-20 ">
-        <div className="flex bg-green-20 basis-[30%]  px-4 md:px-8 lg:px-16 ">
-          <div className="border p-10 aspect-square rounded-[40px] bg-[#202229] hover:border-red-30  mb-7 ">
-            <Image src={Vector} className=" my-auto w-6 h-6 " alt="Vector" />
-          </div>
-          <p className="m-6">Explore More</p>
+        <div className="flex bg-green-20 basis-[30%] mb-10 px-4 md:px-8 lg:px-16 ">
+          <LearnMoreButton />
         </div>
-        <p className="bg-red-40 ">30 more to explore</p>
+        <p className="bg-red-40  ">30 more to explore</p>
       </div>
-      <div className="absolute -bottom-11 h-24 w-full bg-red-20 bg-[#EDEFFF] -skew-y-3">
+      <div className="absolute -bottom-[60px] h-24 w-full bg-red-20 bg-[#EDEFFF] -skew-y-3">
         {" "}
       </div>
       {/* <ExploreMore /> */}
