@@ -7,11 +7,11 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
-    <nav className="px-4 lg:px-8">
+    <nav className="fixed top-8 right-0 left-0 z-50 px-4 lg:px-8">
       <div className=" mx-auto max-w-[1300px] pl-[25px] p-2.5 rounded-[18px] w-full h-fit  bg-[#525AA0] text-white flex justify-between drop-shadow-xl ">
         <Link href={"/"} className="block my-auto">
           <Image
-            className="object-contain w-28 hover:scale-105"
+            className="object-contain w-20 lg:w-28 h-auto hover:scale-105"
             src={"/logo.png"}
             alt="logo"
             width={100}
