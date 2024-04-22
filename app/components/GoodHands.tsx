@@ -56,7 +56,7 @@ const GoodHands = () => {
         width={0}
         height={0}
       />
-      <div className="pt-40 p-16 lg:p-20 flex lg:flex-row flex-col gap-8">
+      <div className="lg:pt-40 pt-8 p-4 md:p-8 lg:p-20 flex lg:flex-row flex-col gap-8">
         {/* left */}
         <div className="lg:basis-1/2 space-y-8">
           <h3 className="text-3xl md:text-4xl lg:text-5xl italics max-w-xl">
@@ -70,7 +70,7 @@ const GoodHands = () => {
         </div>
 
         {/* right */}
-        <div className=" w-full p-20 lg:basis-1/2">
+        <div className=" w-full p-4 md:p-8 lg:p-20 lg:basis-1/2">
           <div className="flex">
             <Image
               className="drop-shadow-lg ml-auto"

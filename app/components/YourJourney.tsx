@@ -13,8 +13,8 @@ import slant from "@/public/slant_white.svg";
 
 const YourJourney = () => {
   return (
-    <div className=" p-8 md:p-16 lg:p-24 space-y4">
-      <h4 className="text-3xl md:text-4xl lg:text-5xl mb-20 italic text-center">
+    <div className=" p-4 pt-16 md:p-8 lg:p-20 space-y4">
+      <h4 className="text-3xl md:text-4xl lg:text-5xl mb-10 lg:mb-20 italic text-center">
         Start your journey today.
       </h4>
 
@@ -34,7 +34,7 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className=" h-fit"
+                  className="w-10 md:w-fit h-fit"
                   src={one}
                   alt="one"
                   width={0}
@@ -50,7 +50,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 md:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>
@@ -75,7 +81,7 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className=" h-fit"
+                  className="w-10 md:w-fit h-fit"
                   src={two}
                   alt="one"
                   width={0}
@@ -91,7 +97,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 xl:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>
@@ -115,7 +127,7 @@ const YourJourney = () => {
             <div className="  my-auto px-8  ">
               <div className="flex space-x-4 ">
                 <Image
-                  className=" h-fit"
+                  className="w-10 md:w-fit h-fit"
                   src={three}
                   alt="one"
                   width={0}
@@ -131,7 +143,13 @@ const YourJourney = () => {
                   </p>
                   <div className="flex space-x-2">
                     <button>
-                      <Image src={vector} alt="lady" width={0} height={0} />
+                      <Image
+                        src={vector}
+                        alt="lady"
+                        width={0}
+                        height={0}
+                        className="w-10 xl:w-full"
+                      />
                     </button>
                     <p className="my-auto">Join Now</p>
                   </div>

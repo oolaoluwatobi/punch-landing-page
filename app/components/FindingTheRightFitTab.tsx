@@ -70,7 +70,7 @@ const FindingTheRightFitTab = () => {
   });
 
   return (
-    <div className="bg-[#F8F8F8] min-w-[576px] max-w-screen-lg w-full rounded-[15px] mx-auto ">
+    <div className="bg-[#F8F8F8] min-w-[480px max-w-screen-lg w-full rounded-[15px] mx-auto ">
       <Tabs
         defaultValue="itAndDevelopment"
         className="mx-auto w-fit px-2 lg:px-8 pt-4 pb-7 "
@@ -86,12 +86,12 @@ const FindingTheRightFitTab = () => {
           </TabsList>
         </div>
         <TabsContent value="itAndDevelopment">
-          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-40 gap-y-4 ">
+          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-4 xl:gap-x-40 gap-y-4 ">
             {renderTabs}
           </div>
         </TabsContent>
         <TabsContent value="designAndCreative">
-          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-40 gap-y-4 ">
+          <div className="grid sm: grid-cols-2 lg:grid-cols-3 gap-x-4 xl:gap-x-40 gap-y-4 ">
             {renderTabs}
             {renderTabs}
           </div>

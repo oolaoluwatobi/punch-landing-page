@@ -9,7 +9,7 @@ import FindingTheRightFitTab from "./FindingTheRightFitTab";
 
 const FindingRightFit = () => {
   return (
-    <div className="mx-auto pt-20 xl:pt-40 space-y-6 w-full">
+    <div className="mx-auto px-4 pt-20 xl:pt-40 space-y-6 w-full">
       <h1 className="text-4xl xl:text-[54px] font-bold drop-shadow-md xl:leading-[64px] text-center">
         Finding the right fit{" "}
         <Image

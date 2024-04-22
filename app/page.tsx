@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="max-w-[1440px] w-full min-h-screen px-4 lg:px-0 pt-[65px] bg-white flex flex-col relative">
+    <main className="max-w-[1440px] w-full min-h-screen px4 lg:px-0 pt-[65px] bg-white flex flex-col relative">
       <Navbar />
       <FindingRightFit />
       <MarketPlace />

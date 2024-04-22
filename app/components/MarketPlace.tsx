@@ -188,9 +188,9 @@ const MarketPlace = () => {
   });
 
   return (
-    <div className="bg-[#EDEFFF] pt-40 relative ">
+    <div className="bg-[#EDEFFF] pt-16 lg:pt-40 relative ">
       <div className="bg-[#EDEFFF bg-[#fff] bg-red-30 -skew-y-2 absolute -top-4 h-10 w-full"></div>
-      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center max-w-lg mx-auto">
+      <h4 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center max-w-l lg:w-full  px-8  mx-auto">
         Your one-stop marketplace for finding <br className="hidden lg:block" />{" "}
         the talent your business needs.
       </h4>
