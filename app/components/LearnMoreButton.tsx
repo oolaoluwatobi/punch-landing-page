@@ -13,7 +13,7 @@ const LearnMoreButton = ({ title }: Props) => {
       <div className="group-hover:scale-105">
         <Image src={vector} alt="learn more" width={0} height={0} />
       </div>
-      <p className="my-auto group-hover:underline">
+      <p className="my-auto text-xs lg:text-base group-hover:underline">
         {title ? title : "Join Now"}
       </p>
     </button>
