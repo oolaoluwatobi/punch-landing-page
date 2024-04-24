@@ -95,7 +95,7 @@ const YourJourney = () => {
   });
 
   return (
-    <div className=" p-4 pt-16 md:p-8 lg:p-16 space-y4">
+    <div className=" p-4 pt-16 md:p-8 lg:p-16  space-y4">
       <h4 className="text-3xl md:text-4xl lg:text-5xl mb-10 lg:mb-20 italic text-center">
         Start your journey today.
       </h4>

@@ -40,22 +40,22 @@ const Slider = () => {
   }, [api]);
 
   return (
-    <div className="p-8 md:p-16 lg:p24 bg-gradient-to-b from-white to-[#E1E3F8]  ">
+    <div className="p-2 sm:p-8 md:p-16 lg:p24 bg-gradient-to-b from-white from-red-40 to-[#E1E3F8]  ">
       {/* <div className="h-[600px] w-full"></div> */}
 
       {/* slides */}
-      <div className="bg-fuchsia-40 bg-whit">
+      <div className="text-xs sm:text-sm lg:text-base bg-green-40 ">
         <Carousel
           setApi={setApi}
           plugins={[plugin.current]}
-          className="w-full "
+          className="w-full h-fit bg-fuchsia-40"
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
         >
-          <CarouselContent>
+          <CarouselContent className="bg-yellow-40">
             {CarouselData.map((data, index) => (
               <CarouselItem key={index}>
-                <div className="p-1">
+                <div className="p-1 bg-blue-40">
                   <CarouselCard data={data} />
                 </div>
               </CarouselItem>
@@ -63,7 +63,7 @@ const Slider = () => {
           </CarouselContent>
         </Carousel>
       </div>
-      <div className=" w-full mt-4 md:mt-6 xl:mt-10">
+      <div className=" w-full mt-2 sm:mt-4 md:mt-6 xl:mt-10">
         <div className="flex bg-[#E1E3F8] w-fit mx-auto rounded-full drop-shadow-lg">
           {Array.from({ length: count }).map((_, index) => (
             <div

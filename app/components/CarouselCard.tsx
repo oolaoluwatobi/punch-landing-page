@@ -57,9 +57,9 @@ const CarouselCard = ({ data }: Props) => {
       return (
         <ul className="flex space-x-4" key={index}>
           <div
-            className={` ${id === 1 ? "bg-[#50589F]" : ""} ${
-              id === 2 ? "bg-[#FFBE2E]" : ""
-            } ${id === 3 ? "bg-[#C7F4C2]" : ""} w-5 h-2 rounded-full  my-auto `}
+            className={` ${id === 1 ? "bg-[#50589F] " : ""} ${
+              id === 2 ? "bg-[#FFBE2E] " : ""
+            } ${id === 3 ? "bg-[#C7F4C2] " : ""}  min-w-5 w-5 h-2 rounded-full  my-auto `}
           ></div>{" "}
           <span>{point}</span>
         </ul>
@@ -68,13 +68,13 @@ const CarouselCard = ({ data }: Props) => {
   };
 
   return (
-    <div className="bg-white rounded-xl flex flex-col xl:flex-row bg-green-20 relative  p-8 xl:pl-8 py-8 ">
+    <div className="bg-white rounded-xl flex flex-col xl:flex-row bg-green-20 relative p-4 sm:p-8 xl:pl-8 py-4 lg:py-8 ">
       {/* text */}
-      <div className="my-auto mx-auto xl:mx-0  bg-fuchsia-30 space-y-8 py-40 z-10 ">
+      <div className="my-auto mx-auto xl:mx-0  bg-fuchsia-30 space-y-8  py-10 lg:py-40 z-10 ">
         <h4 className="text-3xl lg:text-5xl xl:text-[54px] xl:max-w-md italic">
           {title}
         </h4>
-        <div className="text-lg lg:textxl 2xl:max-w-full lg:max-w-[526px] ">
+        <div className=" text-xs sm:text-sm lg:text-base 2xl:max-w-full lg:max-w-[526px] ">
           {renderPoints(content)}
         </div>
         <LearnMoreButton />
