@@ -86,12 +86,12 @@ const FindingTheRightFitTab = () => {
           </TabsList>
         </div>
         <TabsContent value="itAndDevelopment">
-          <div className="grid sm: grid-cols-2 sm:grid-cols-3 px-4 gap-x-12 sm:gap-x24 lg:gap-x-32  xl:gap-x-40 gap-y-4 ">
+          <div className="grid text-xs sm:text-base grid-cols-2 sm:grid-cols-3 px-2 sm:px-4 gap-x-4 sm:gap-x-12 sm:gap-x24 lg:gap-x-32  xl:gap-x-40 gap-y-4 ">
             {renderTabs}
           </div>
         </TabsContent>
         <TabsContent value="designAndCreative">
-          <div className="grid sm: grid-cols-2 sm:grid-cols-3 px-4 lg:gap-x-32 xl:gap-x40 gap-y-4 ">
+          <div className="grid text-xs sm:text-base grid-cols-2 sm:grid-cols-3 px-2 sm:px-4 gap-x-4 sm:gap-x-12 sm:gap-x24 lg:gap-x-32  xl:gap-x-40 gap-y-4 ">
             {renderTabs}
             {renderTabs}
           </div>

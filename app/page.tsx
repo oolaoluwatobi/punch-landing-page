@@ -23,15 +23,10 @@ export default function Home() {
       <YourJourney />
       <Slider />
       <Questions />
-      {/* <div className="bg-[#0C0C0C] py-5 px-8"> */}
       <div className="bg-[#f3f3f3] -mt-10 h-10 w-full -skew-y-3"></div>
       <div className="bg-[#0C0C0C] h-10 w-full -skew-y-3"></div>
-      {/* <div className="bg-[#0C0C0C] h-10 w-full -skew-y-3"></div> */}
       <NeedAJob />
       <div className="bg-[#0C0C0C] h-32 w-full -mt-16 -skew-y-3"></div>
-      {/* <div className="bg-green-40 bg-[#0C0C0C] h-10 w-full -skew-y-3"></div> */}
-      {/* <div className="bg-red-500 h-10 w-full -skew-y-3"></div> */}
-      {/* </div> */}
       <Footer />
     </main>
   );

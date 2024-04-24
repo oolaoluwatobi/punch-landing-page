@@ -61,8 +61,6 @@ const Slider = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
         </Carousel>
       </div>
       <div className=" w-full mt-4 md:mt-6 xl:mt-10">
